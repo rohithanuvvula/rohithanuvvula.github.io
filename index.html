@@ -1,31 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfolio of R, digital marketing professional.">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>R</text></svg>">
 </head>
+
 <body>
-    <h1>Hello, I am R</h1>
-    <p>I am learning digital marketing and data analytics.</p>
+    <nav>
+        <span class="logo">R</span>
+        <div>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+    <section class="hero">
+        <p class="tag">Digital Marketing &amp; Analytics</p>
+        <h1>Hello, I am <span class="gradient">R</span></h1>
+        <p class="subtitle">I am learning digital marketing and data analytics.</p>
+        <a href="#projects" class="btn">View My Work</a>
+    </section>
 
-    <h2>About Me</h2>
-    <p>Associate at Accenture</p>
+    <section>
+        <h2 id="about">About Me</h2>
+        <div class="about-text">
+        <p>Digital marketing measurement and reporting professional at Accenture with hands-on experience supporting
+            paid social campaign execution in Meta Ads Manager and digital advertising activities using Google Ads. Skilled in
+            campaign setup, audience and budget configuration, placement and creative checks, launch readiness, delivery monitoring, and
+            Excelbased reporting. Experienced in reviewing campaign inputs for accuracy, maintaining trackers, investigating
+            discrepancies, and coordinating with clients and internal teams to keep work moving. Brings a
+            detail-oriented, processdriven approach to quality assurance and continuous improvement, complemented by
+            basic working knowledge of Power BI and SQL and practical experience testing AI outputs and bot workflows.</p>
+            </div>
+    </section>
 
-    <h2>Skills</h2>
-    <ul>
-        <li>Digital Marketing</li>
-        <li>Data Analytics</li>
-    </ul>
+    <h2 id="skills">Skills</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Digital Marketing</h3>
+            <p>Campaign planning, Social media, and audience growth.</p>
+        </div>
+        <div class="card">
+            <h3>Data Analytics</h3>
+            <p>Turning data into insights that guide decisions.</p>
+        </div>
+    </div>
 
-    <h2>Projects</h2>
-    <ul>
-        <li>Project 1:</li>
-        <li>Project 2:</li>
-    </ul>
-    
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:rohithakhanna@gmail.com">rohithakhanna@gmail.com</a></p>
+    <h2 id="projects">Projects</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Project One</h3>
+            <p>project 1 details</p>
+        </div>
+        <div class="card">
+            <h3>Project Two</h3>
+            <p>project 2 details</p>
+        </div>
+    </div>
+
+    <section>  
+    <h2 id="contact">Contact</h2>
+    <P>Want to connect? Send me an email.</P>
+    <a href="mailto:rohithakhanna@gmail.com" class="btn">Email Me</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 R. Built with HTML and CSS.</p>
+    </footer>
 </body>
+
 </html>
